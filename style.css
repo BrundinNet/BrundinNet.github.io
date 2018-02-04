@@ -2,11 +2,11 @@
     height: auto;
     width: 40%;
     margin-left: 30%;
-    margin-top: 20%;
+    margin-top: 25%;
 }
 
 html {
-    background-color: #6ECEFE;
+    background-color: #5ee0ff;
     font-family: 'Roboto', sans-serif;
     color: #0e2160;
 }
@@ -17,8 +17,40 @@ html {
 
 .contact {
     margin-top: 10%;
+    text-align: center;
 }
 
-.contact h3 {
-    text-align: center;
+.contact h2 {
+    margin-bottom: 3%;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 23px;
+}
+
+.email {
+    border: solid 3px #c71610;
+    background-color: #c71610;
+    border-radius: 200px;
+    padding: 3px 2% 3px 2%;
+}
+
+.discord {
+    border: solid 3px #7289da;
+    background-color: #7289da;
+    border-radius: 200px;
+    padding: 3px 2% 3px 2%;
+    margin-left: 5%;
+}
+
+.email:hover {
+    background-color: #a21510;
+    border: solid 3px #a21510;
+}
+
+.discord:hover {
+    background-color: #5e70af;
+    border: solid 3px #5e70af;
 }
