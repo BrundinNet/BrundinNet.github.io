@@ -3,6 +3,8 @@
     width: 40%;
     margin-left: 30%;
     margin-top: 25%;
+    vertical-align: middle;
+    line-height: auto;   
 }
 
 html {
