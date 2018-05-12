@@ -1,59 +1,303 @@
-.brundinnet img {
-    height: auto;
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 25%;
-    vertical-align: middle;
-    line-height: auto;   
+* {
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s ease-in-out;
 }
 
-html {
-    background-color: #5ee0ff;
-    font-family: 'Roboto', sans-serif;
-    color: #0e2160;
+body {
+    margin: 0px;
 }
 
-.brundinnet h5 {
+
+
+.content {
+    background-color: #00c4ff;
+    height: 100vh;
+    margin: 0px;
+}
+
+.content h1 { 
+    padding-top: 38vh;
+    color: #fff;
     text-align: center;
 }
 
-.contact {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    text-align: center;
+.hand{
+    height: 25vh;
+    width: auto;
+    padding-left: 10%;
+    position: absolute;
+    z-index: 1;
+}   
+
+.content-text {
+    padding-top: 4%;
 }
 
-.contact h2 {
-    margin-bottom: 3%;
+nav{
+    background-color: #fff;
+    height: 11vh;
+    margin-top: 0px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .3);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: 0px;
+    z-index: 2;
+    
 }
 
-.contact a {
+nav a{
+    float: right;
+    display: block;
+    color: #1993CA;
+    font-weight: 600;
+    padding-right: 5%;
     text-decoration: none;
-    color: #ffffff;
-    font-size: 23px;
+    font-size: 18px;
+    padding-top: 4vh;
+}
+
+nav a:hover{ 
+    color: #15749f;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logo {
+    height: 9vh;
+    width: auto;
+    padding-top: 5px;
+}
+
+.pricing-home {
+    height: 70vh;
+    background-color: #00c4ff;
+    color: #fff;
+}
+
+.portfolio-home img {
+    height: 30vh;
+    width: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolio-more a {
+    color: #1993CA;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    border: solid 2px;
+    margin-left: 2vw;
+    display: inline-block;
+    margin-top: 10vh;
+    padding: 10px 40px 10px 40px;
+    border-radius: 200px;
+}
+
+.portfolio-more a:hover {
+    color: #fff;
+    background-color: #1993CA;
+}
+
+.portfolio-prev p {
+    font-weight: 600;
+    padding: 2vh 0 2vh 0;
+    border-bottom: solid 2px;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 50vw;
+}
+ 
+.ISTRY-p {
+    width: 29.5vw;
+}
+
+
+.lakeside{
+    float: left;
+    margin-left: 7vw;
+    margin-top: 5vh;
+    text-align: center;
+}
+
+.ISTRY {
+    height: 35vh;
+    width: auto;
+    margin-top: 10vh;
+    text-align: center;
+    padding-left: 60vw;
+}
+
+.portfolio-prev {
+    width: 100%;
+}
+
+.portfolio-home {
+    display: block;
+    height: 65vh;
+    color:#1993CA;
+    margin-top: 6.5%;  
+}
+
+.portfolio-home img:hover {
+    opacity: 0.7;
+    filter: blur(1px);
+    transition: opacity .5s;
+}
+
+.about-me {
+    height: 55vh;
+    text-align: center;
+    color:#1993CA;
+    margin-top: 6.5%;  
+}
+
+.about-me a {
+    text-decoration: none;
+    color: #1986b7;
+    font-weight: 700;
+}
+
+.pricing-content p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.three-things {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 14vw; 
+}
+
+.three-things p, .three-things h5 {
+    margin-left: 1.7vw;
+    padding-right: 3vw;
+    max-width: 19.075vw;
+}
+
+.pricing-home h3{
+    padding-top: 5vh;
+}
+
+.three-things h5 {
+    font-size: 2.3vh;
+    padding-bottom: 1vh;
+}
+
+.img1, .img2 {
+    border-right: solid 3px #fff;
+}
+
+#about,  #price {
+    padding-top: 5%;
+}
+
+.about-me h3, .contact-me h3, .pricing-home h3, .portfolio-home h3{
+    font-size: 30px;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.about-me p {
+    max-width: 50%; 
+    margin-left: 25%;
+    font-size: 17px;   
+}
+
+.about-me img {
+    float: right;
+    height: 18vh;
+    width: auto;
+    margin-right: 13%;
+}
+
+.contact-me {
+    height: 60vh;
+    background-color: #00c4ff;
+    color: #fff;
+}
+
+.contact-me h3, .pricing-home h3 {
+    text-align: center;
+    margin-bottom: 12.5vh;
+}
+
+.content-contact {
+    padding-top: 5vh;
+}
+
+.contact-me h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 15%;    
+    border-right: 3px solid #fff;
+    width: 17vw;
+    position: absolute;
+    margin-top: 2vh;
+}
+
+.contact-me img {
+    float: right;
+    position: relative;
+    margin-right: 10%;
 }
 
 .email {
-    border: solid 3px #c71610;
-    background-color: #c71610;
-    border-radius: 200px;
-    padding: 3px 2% 3px 2%;
+    height: 10vh;
+    margin-top: 4vh;
 }
 
 .discord {
-    border: solid 3px #7289da;
-    background-color: #7289da;
-    border-radius: 200px;
-    padding: 3px 2% 3px 2%;
-    margin-left: 5%;
+    filter: brightness(2);
+    height: 15vh;
+    margin-top: 1vh;
 }
 
-.email:hover {
-    background-color: #a21510;
-    border: solid 3px #a21510;
+.github {
+    filter: brightness(3);
+    height: 18vh;
 }
 
-.discord:hover {
-    background-color: #5e70af;
-    border: solid 3px #5e70af;
+.contact-me img:hover {
+    filter: blur(3px)
 }
+
+.portfolio-page h1 {
+    color: #fff;
+}
+
+.portfolio-page {
+    margin-top: 11vh;
+    background-color: #00c4ff;
+}
+
+.portfolio-page h3 {
+    color: #fff;
+    padding-top: 5vh;
+}
+
+.portfolio-page
+
+footer {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;    
+    font-weight: bold;
+    color: #1993CA;
+}
+
+        
+
+
+
