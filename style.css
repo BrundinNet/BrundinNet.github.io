@@ -287,16 +287,15 @@ nav a:hover{
 
 .portfolio-page
 
-footer {
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 15vh;    
-    font-weight: bold;
-    color: #1993CA;
+.footer {
+    background-color: #fff
 }
 
+.footer p {
+    font-weight: bold;
+    color: #1993CA;
+    text-align: center;
+    padding: 5vh 0 5vh 0;
         
 
 
