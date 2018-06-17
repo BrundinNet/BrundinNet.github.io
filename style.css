@@ -296,7 +296,30 @@ nav a:hover{
     color: #1993CA;
     text-align: center;
     padding: 5vh 0 5vh 0;
+}
         
+/* ============================= */
+
+.four-o-four {
+    height: 88vh;
+    background-color: #00c4ff;
+}
+
+.four-o-four h2, h1 {
+    color: #15739d;
+    overflow: hidden;
+    text-align: center;
+}
+
+.four-o-four h1 {
+    padding-top: 44vh;
+}
+
+.four-o-four a {
+    color: #15739d;
+    
+}
+
 
 
 
